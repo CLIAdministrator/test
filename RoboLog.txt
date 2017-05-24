@@ -1,0 +1,33 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wed May 24 06:54:36 2017
+
+   Source : e:\work\
+     Dest : \\mars\users\mmundy\work\
+
+    Files : *.*
+	    
+Exc Files : *.jpg
+	    
+  Options : *.* /NDL /S /COPY:DAT /PURGE /MIR /M /MAX:5000000 /R:0 /W:0 
+
+------------------------------------------------------------------------------
+
+	    New File  		  272382	e:\work\tlc\3pol_format_B.PDF  0%   48%   96%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      3186       376      2810         0         0         0
+   Files :    101333         1    101332         0         0         0
+   Bytes :  31.749 g   265.9 k  31.749 g         0         0         0
+   Times :   0:01:07   0:00:00                       0:00:00   0:01:07
+
+
+   Speed :             5447640 Bytes/sec.
+   Speed :             311.716 MegaBytes/min.
+
+   Ended : Wed May 24 06:55:44 2017
